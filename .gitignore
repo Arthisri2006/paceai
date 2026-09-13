@@ -1,0 +1,29 @@
+.venv/
+.python/
+.python311-dist/
+.python311.zip
+.uv-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+node_modules/
+.codex-finalizer/
+presentation/_build/
+presentation/verified*/
+
+# Generated knowledge-base files
+data/raw/*
+data/cleaned/*
+data/index/*
+data/cache/*
+data/candidates/
+
+# Keep empty data folders in version control
+!data/raw/.gitkeep
+!data/cleaned/.gitkeep
+!data/index/.gitkeep
+!data/cache/.gitkeep

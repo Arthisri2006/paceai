@@ -1,0 +1,19 @@
+[
+  {"id":"aiml-overview", "question":"tell me the syllabus of aiml in r23 regulation", "source":"/AIML_R23.pdf", "pages":[2,3], "term":"Semester"},
+  {"id":"aiml-paraphrase", "question":"Please give me the AI & ML curriculum under R-23 regulations", "source":"/AIML_R23.pdf", "pages":[2,3], "term":"Semester"},
+  {"id":"cse-overview", "question":"What is the CSE R23 syllabus?", "source":"/CSE_R23.pdf", "pages":[2,3], "term":"Semester"},
+  {"id":"english-nature", "question":"Which poem is included in the NATURE lesson in AIML R23 Communicative English syllabus?", "source":"/AIML_R23.pdf", "pages":[7], "term":"The Brook"},
+  {"id":"english-inspiration", "question":"What is the INSPIRATION lesson in AIML R23 Communicative English syllabus?", "source":"/AIML_R23.pdf", "pages":[8], "term":"The Toys of Peace"},
+  {"id":"chemistry-electrochemistry", "question":"What electrochemical sensors are in the AIML R23 Chemistry syllabus?", "source":"/AIML_R23.pdf", "pages":[10], "term":"sensors"},
+  {"id":"chemistry-polymers", "question":"Which conducting polymers are in AIML R23 Chemistry syllabus?", "source":"/AIML_R23.pdf", "pages":[11], "term":"polyacetylene"},
+  {"id":"chemistry-instruments", "question":"What instrumental methods and chromatography are in AIML R23 Chemistry syllabus?", "source":"/AIML_R23.pdf", "pages":[11], "term":"HPLC"},
+  {"id":"math-calculus", "question":"What mean value theorems are in AIML R23 Linear Algebra and Calculus syllabus?", "source":"/AIML_R23.pdf", "pages":[12], "term":"Lagrange"},
+  {"id":"math-partial", "question":"What partial differentiation topics are in AIML R23 Linear Algebra and Calculus syllabus?", "source":"/AIML_R23.pdf", "pages":[12], "term":"Jacobians"},
+  {"id":"placement", "question":"What placement services are offered?", "source":"/trainings-and-placements", "term":"training"},
+  {"id":"hostel", "question":"What hostel facilities are available?", "source":"/campus/hostel", "term":"hostel"},
+  {"id":"admission", "question":"What information is available about admissions?", "source":"/admissions/admission-procedure", "term":"admission"},
+  {"id":"campus", "question":"What facilities are available on campus?", "source":"/campus/facilities", "term":"facilities"},
+  {"id":"courses", "question":"What courses are offered at PACE?", "source":"/admissions/courses-offered", "term":"course"},
+  {"id":"missing-regulation", "question":"What is the AIML R99 syllabus?", "unanswerable":true},
+  {"id":"unrelated", "question":"Who won the FIFA World Cup in 2030?", "unanswerable":true}
+]
