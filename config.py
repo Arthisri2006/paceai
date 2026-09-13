@@ -66,7 +66,7 @@ class Settings:
     # The 1.5B model is the responsive default for a 16 GB, CPU-only machine.
     # Set PACE_LLM_MODEL=Qwen/Qwen2.5-3B-Instruct for a slower quality upgrade.
     llm_model: str = os.getenv("PACE_LLM_MODEL", "Qwen/Qwen2.5-1.5B-Instruct")
-    llm_provider: str = os.getenv("PACE_LLM_PROVIDER", "llama_cpp")
+    llm_provider: str = os.getenv("PACE_LLM_PROVIDER", "gemini")
     gemini_model: str = os.getenv("PACE_GEMINI_MODEL", "gemini-3.5-flash")
     gemini_api_key: str = field(default_factory=lambda: os.getenv("GEMINI_API_KEY", ""), repr=False)
     gemini_max_output_tokens: int = int(os.getenv("PACE_GEMINI_MAX_OUTPUT_TOKENS", "1024"))

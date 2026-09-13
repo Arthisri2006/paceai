@@ -1,0 +1,9 @@
+{
+  "path": "../candidates/token-448-20260912-v3",
+  "sha256": {
+    "vectors.faiss": "22fdbbd2d1b2e584c288489bb4afb600d269bf07fd8a648617e74d74421e7383",
+    "vector_records.json": "4722e552e45961b80bf3e95c2eb20b5dd95782e4170e78161eb754b2133af954",
+    "bm25_corpus.json": "ca95fca351dfa74498486b82839a88fc02d33e703372a75b34c218393c7bdb1e",
+    "status.json": "96b3028aae0b80369f7fa01d572dc2bc36b237c088fd45eec845ba1bf60adafb"
+  }
+}

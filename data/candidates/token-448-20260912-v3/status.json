@@ -1,0 +1,26 @@
+{
+  "ready": true,
+  "last_refreshed": "2026-09-08T08:10:29.268616+00:00",
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "pages": 120,
+  "pdfs": 46,
+  "pdf_pages": 3530,
+  "documents": 3630,
+  "chunks": 5835,
+  "fingerprint": "fba8d1d24ca3ada4f1d51a1a2711c84d47527209872c57502d92e711df381d8f",
+  "timing": {
+    "crawl_seconds": 0.015,
+    "pdf_seconds": 0.166,
+    "clean_chunk_seconds": 6.274,
+    "embedding_faiss_seconds": 0.0,
+    "embeddings_reused": true,
+    "bm25_seconds": 2.427,
+    "total_seconds": 8.922
+  },
+  "index_built_at": "2026-09-12T10:01:40.170974+00:00",
+  "chunking": {
+    "strategy": "token-lines-v1",
+    "token_limit": 448,
+    "overlap_tokens": 48
+  }
+}

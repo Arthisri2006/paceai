@@ -3,3 +3,4 @@
 *.pptx binary
 *.jpg binary
 *.png binary
+data/candidates/** binary

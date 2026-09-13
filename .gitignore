@@ -22,6 +22,18 @@ data/index/*
 data/cache/*
 data/candidates/
 
+# Ship only the evaluated cloud snapshot. Other generated indexes stay local.
+!data/index/active.json
+!data/candidates/
+data/candidates/*
+!data/candidates/token-448-20260912-v3/
+data/candidates/token-448-20260912-v3/*
+!data/candidates/token-448-20260912-v3/vectors.faiss
+!data/candidates/token-448-20260912-v3/vector_records.json
+!data/candidates/token-448-20260912-v3/bm25_corpus.json
+!data/candidates/token-448-20260912-v3/status.json
+!data/candidates/token-448-20260912-v3/evaluation.json
+
 # Keep empty data folders in version control
 !data/raw/.gitkeep
 !data/cleaned/.gitkeep

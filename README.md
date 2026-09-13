@@ -100,9 +100,8 @@ flowchart TB
 | | `PyMuPDF` (fitz) | `1.28.2` | High-fidelity digital text and page-number extraction from academic PDFs. |
 | | `langchain-text-splitters`| `1.1.2` | Character-level recursive text splitting utilities. |
 | **Generation (Cloud)** | `requests` | `2.34.2` | Direct streaming HTTP SSE client to Google Gemini REST API (`gemini-3.5-flash`). |
-| **Generation (Local/Optional)**| `llama-cpp-python`| `0.3.35` | Optional inactive provider for quantized Qwen GGUF local models. |
-| | `transformers` | `5.16.1` | Optional inactive provider for Hugging Face causal language models. |
-| | `torch` | `2.14.0` | Deep learning runtime supporting local embeddings and transformers. |
+| **Embedding runtime** | `transformers` | `5.16.1` | Model loading support required by `sentence-transformers`. |
+| | `torch` | `2.14.0` | Tensor runtime used to compute local BGE query embeddings. |
 | **Testing & Quality** | `pytest` | `9.1.1` | Automated testing framework powering the 89 offline unit/regression tests. |
 
 ---
@@ -157,6 +156,22 @@ streamlit run app.py
 
 Open your browser at: **`http://127.0.0.1:8501`**
 
+### 5. Free Streamlit Community Cloud deployment
+
+The repository includes the evaluated `token-448-20260912-v3` snapshot required
+at runtime. Deploy `app.py` from the `main` branch using Python 3.11. In the
+Streamlit Community Cloud Secrets panel, configure the key outside GitHub:
+
+```toml
+GEMINI_API_KEY = "your-rotated-key"
+PACE_LLM_PROVIDER = "gemini"
+PACE_GEMINI_MODEL = "gemini-3.5-flash"
+```
+
+Do not run `build_index.py` during cloud startup. Index construction remains an
+offline, evaluated workflow. The deployed application uses Gemini; no Qwen model
+or `llama.cpp` package is installed or selected.
+
 *For a complete installation walkthrough, see [`docs/SETUP.md`](docs/SETUP.md).*
 
 ---
@@ -187,7 +202,7 @@ pace-ai-assistant/
 │   ├── embedding_text.py       # Canonical embedding representation (metadata + text)
 │   ├── embeddings.py           # BGE-small-en-v1.5 model wrapper with L2 normalization
 │   ├── index_selection.py      # Candidate activation, SHA-256 manifests & rollback
-│   ├── llm.py                  # Gemini REST streaming & optional local model wrappers
+│   ├── llm.py                  # Gemini REST streaming and grounded-answer safeguards
 │   ├── pdf_loader.py           # PyMuPDF page extractor with size & magic byte checks
 │   ├── public_http.py          # SSRF prevention, host whitelist & redirect validator
 │   ├── rag_pipeline.py         # Grounded RAG orchestrator, context builder & evidence gate

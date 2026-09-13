@@ -1,0 +1,686 @@
+{
+  "baseline_chunks": 3227,
+  "candidate_chunks": 5835,
+  "old_oversized": 952,
+  "new_oversized": 0,
+  "new_max_tokens": 448,
+  "model_window": 512,
+  "clean_chunk_seconds": 86.072,
+  "baseline": [
+    {
+      "id": "aiml-overview",
+      "question": "tell me the syllabus of aiml in r23 regulation",
+      "passed": true,
+      "retrieval_mode": "exact_syllabus",
+      "seconds": 0.0203,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 2,
+          "id": "chunk-000424-d14319f133"
+        },
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 3,
+          "id": "chunk-000425-0ad6a54925"
+        }
+      ]
+    },
+    {
+      "id": "aiml-paraphrase",
+      "question": "Please give me the AI & ML curriculum under R-23 regulations",
+      "passed": true,
+      "retrieval_mode": "exact_syllabus",
+      "seconds": 0.0174,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 2,
+          "id": "chunk-000424-d14319f133"
+        },
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 3,
+          "id": "chunk-000425-0ad6a54925"
+        }
+      ]
+    },
+    {
+      "id": "cse-overview",
+      "question": "What is the CSE R23 syllabus?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.4662,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/CSE_R23.pdf",
+          "page": 2,
+          "id": "chunk-000894-61ea7b6918"
+        },
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/CSE_R23.pdf",
+          "page": 3,
+          "id": "chunk-000895-1265c9ca08"
+        }
+      ]
+    },
+    {
+      "id": "english-nature",
+      "question": "Which poem is included in the NATURE lesson in AIML R23 Communicative English syllabus?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.2071,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 7,
+          "id": "chunk-000429-8b664f717c"
+        },
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 8,
+          "id": "chunk-000430-ec509da476"
+        }
+      ]
+    },
+    {
+      "id": "english-inspiration",
+      "question": "What is the INSPIRATION lesson in AIML R23 Communicative English syllabus?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.1879,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 8,
+          "id": "chunk-000430-ec509da476"
+        },
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 7,
+          "id": "chunk-000429-8b664f717c"
+        }
+      ]
+    },
+    {
+      "id": "chemistry-electrochemistry",
+      "question": "What electrochemical sensors are in the AIML R23 Chemistry syllabus?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.1712,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 10,
+          "id": "chunk-000432-8fd19f4925"
+        },
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 21,
+          "id": "chunk-000443-857e3a6b0a"
+        }
+      ]
+    },
+    {
+      "id": "chemistry-polymers",
+      "question": "Which conducting polymers are in AIML R23 Chemistry syllabus?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.1663,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 11,
+          "id": "chunk-000433-538f4f8a04"
+        },
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 10,
+          "id": "chunk-000432-8fd19f4925"
+        }
+      ]
+    },
+    {
+      "id": "chemistry-instruments",
+      "question": "What instrumental methods and chromatography are in AIML R23 Chemistry syllabus?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.2025,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 11,
+          "id": "chunk-000433-538f4f8a04"
+        },
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 10,
+          "id": "chunk-000432-8fd19f4925"
+        }
+      ]
+    },
+    {
+      "id": "math-calculus",
+      "question": "What mean value theorems are in AIML R23 Linear Algebra and Calculus syllabus?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.1824,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 12,
+          "id": "chunk-000434-1f00333795"
+        },
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 56,
+          "id": "chunk-000478-4e5d21101b"
+        }
+      ]
+    },
+    {
+      "id": "math-partial",
+      "question": "What partial differentiation topics are in AIML R23 Linear Algebra and Calculus syllabus?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.1741,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 12,
+          "id": "chunk-000434-1f00333795"
+        },
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 34,
+          "id": "chunk-000456-7249743879"
+        }
+      ]
+    },
+    {
+      "id": "placement",
+      "question": "What placement services are offered?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.1661,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/placements-records",
+          "page": null,
+          "id": "chunk-000106-d93a768f3e"
+        },
+        {
+          "url": "https://pace.ac.in/tpo",
+          "page": null,
+          "id": "chunk-000185-c2fdb24413"
+        },
+        {
+          "url": "https://pace.ac.in/trainings-and-placements",
+          "page": null,
+          "id": "chunk-000052-472aeb2dc6"
+        }
+      ]
+    },
+    {
+      "id": "hostel",
+      "question": "What hostel facilities are available?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.1418,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/campus/hostel",
+          "page": null,
+          "id": "chunk-000159-80339d459c"
+        },
+        {
+          "url": "https://pace.ac.in/campus/facilities",
+          "page": null,
+          "id": "chunk-000156-196d444363"
+        },
+        {
+          "url": "https://pace.ac.in/campus/facilities",
+          "page": null,
+          "id": "chunk-000158-e24e118d46"
+        }
+      ]
+    },
+    {
+      "id": "admission",
+      "question": "What information is available about admissions?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.2526,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/admissions/admission-procedure",
+          "page": null,
+          "id": "chunk-000078-b8497cba26"
+        },
+        {
+          "url": "https://pace.ac.in/career-guidance-cell",
+          "page": null,
+          "id": "chunk-000184-a517b9a500"
+        }
+      ]
+    },
+    {
+      "id": "campus",
+      "question": "What facilities are available on campus?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.1724,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/campus/facilities",
+          "page": null,
+          "id": "chunk-000156-196d444363"
+        },
+        {
+          "url": "https://pace.ac.in/campus/facilities",
+          "page": null,
+          "id": "chunk-000158-e24e118d46"
+        },
+        {
+          "url": "https://pace.ac.in/campus/hostel",
+          "page": null,
+          "id": "chunk-000159-80339d459c"
+        }
+      ]
+    },
+    {
+      "id": "courses",
+      "question": "What courses are offered at PACE?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.2425,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/admissions/courses-offered",
+          "page": null,
+          "id": "chunk-000001-e5c35bd6b9"
+        }
+      ]
+    },
+    {
+      "id": "missing-regulation",
+      "question": "What is the AIML R99 syllabus?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.014,
+      "retrieved_hit": false,
+      "context": []
+    },
+    {
+      "id": "unrelated",
+      "question": "Who won the FIFA World Cup in 2030?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.2305,
+      "retrieved_hit": false,
+      "context": []
+    }
+  ],
+  "index_build_seconds": 33.588,
+  "new_embedding_inputs": 149,
+  "candidate": [
+    {
+      "id": "aiml-overview",
+      "question": "tell me the syllabus of aiml in r23 regulation",
+      "passed": true,
+      "retrieval_mode": "exact_syllabus",
+      "seconds": 0.0181,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 2,
+          "id": "chunk-000820-d14319f133"
+        },
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 3,
+          "id": "chunk-000821-0ad6a54925"
+        }
+      ]
+    },
+    {
+      "id": "aiml-paraphrase",
+      "question": "Please give me the AI & ML curriculum under R-23 regulations",
+      "passed": true,
+      "retrieval_mode": "exact_syllabus",
+      "seconds": 0.0167,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 2,
+          "id": "chunk-000820-d14319f133"
+        },
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 3,
+          "id": "chunk-000821-0ad6a54925"
+        }
+      ]
+    },
+    {
+      "id": "cse-overview",
+      "question": "What is the CSE R23 syllabus?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.6209,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/CSE_R23.pdf",
+          "page": 2,
+          "id": "chunk-001518-e568d3586a"
+        },
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/CSE_R23.pdf",
+          "page": 2,
+          "id": "chunk-001519-477110355b"
+        }
+      ]
+    },
+    {
+      "id": "english-nature",
+      "question": "Which poem is included in the NATURE lesson in AIML R23 Communicative English syllabus?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.2085,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 7,
+          "id": "chunk-000825-eb4937be72"
+        },
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 7,
+          "id": "chunk-000826-f8c847fd5c"
+        }
+      ]
+    },
+    {
+      "id": "english-inspiration",
+      "question": "What is the INSPIRATION lesson in AIML R23 Communicative English syllabus?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.1993,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 8,
+          "id": "chunk-000827-88ead46bbb"
+        },
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 7,
+          "id": "chunk-000825-eb4937be72"
+        }
+      ]
+    },
+    {
+      "id": "chemistry-electrochemistry",
+      "question": "What electrochemical sensors are in the AIML R23 Chemistry syllabus?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.1971,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 10,
+          "id": "chunk-000831-c8c01a926a"
+        },
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 10,
+          "id": "chunk-000830-d162856e4d"
+        }
+      ]
+    },
+    {
+      "id": "chemistry-polymers",
+      "question": "Which conducting polymers are in AIML R23 Chemistry syllabus?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.2953,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 11,
+          "id": "chunk-000832-54bf0a9bdc"
+        },
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 10,
+          "id": "chunk-000830-d162856e4d"
+        }
+      ]
+    },
+    {
+      "id": "chemistry-instruments",
+      "question": "What instrumental methods and chromatography are in AIML R23 Chemistry syllabus?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.2267,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 11,
+          "id": "chunk-000832-54bf0a9bdc"
+        },
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 11,
+          "id": "chunk-000833-542da2887e"
+        }
+      ]
+    },
+    {
+      "id": "math-calculus",
+      "question": "What mean value theorems are in AIML R23 Linear Algebra and Calculus syllabus?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.2759,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 12,
+          "id": "chunk-000835-a521886448"
+        },
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 12,
+          "id": "chunk-000834-727d7b2eb9"
+        }
+      ]
+    },
+    {
+      "id": "math-partial",
+      "question": "What partial differentiation topics are in AIML R23 Linear Algebra and Calculus syllabus?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.2099,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 34,
+          "id": "chunk-000870-24b11a6b20"
+        },
+        {
+          "url": "https://pace.ac.in/public/assets/images/syllabus/AIML_R23.pdf",
+          "page": 12,
+          "id": "chunk-000835-a521886448"
+        }
+      ]
+    },
+    {
+      "id": "placement",
+      "question": "What placement services are offered?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.1792,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/placements-records",
+          "page": null,
+          "id": "chunk-000227-1dc6fd3f2d"
+        },
+        {
+          "url": "https://pace.ac.in/placements-records",
+          "page": null,
+          "id": "chunk-000226-6dab93fe9c"
+        },
+        {
+          "url": "https://pace.ac.in/trainings-and-placements",
+          "page": null,
+          "id": "chunk-000116-fb1d351f13"
+        }
+      ]
+    },
+    {
+      "id": "hostel",
+      "question": "What hostel facilities are available?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.1604,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/campus/hostel",
+          "page": null,
+          "id": "chunk-000307-d7a8e014e0"
+        },
+        {
+          "url": "https://pace.ac.in/campus/facilities",
+          "page": null,
+          "id": "chunk-000301-2227926568"
+        },
+        {
+          "url": "https://pace.ac.in/campus/facilities",
+          "page": null,
+          "id": "chunk-000302-2771bf2bfa"
+        }
+      ]
+    },
+    {
+      "id": "admission",
+      "question": "What information is available about admissions?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.2049,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/academics/departments/it",
+          "page": null,
+          "id": "chunk-000069-60137d7adb"
+        },
+        {
+          "url": "https://pace.ac.in/career-guidance-cell",
+          "page": null,
+          "id": "chunk-000395-2cd61f08a4"
+        },
+        {
+          "url": "https://pace.ac.in/admissions/admission-procedure",
+          "page": null,
+          "id": "chunk-000162-11ef8e79b0"
+        }
+      ]
+    },
+    {
+      "id": "campus",
+      "question": "What facilities are available on campus?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.1865,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/campus/facilities",
+          "page": null,
+          "id": "chunk-000302-2771bf2bfa"
+        },
+        {
+          "url": "https://pace.ac.in/campus/facilities",
+          "page": null,
+          "id": "chunk-000301-2227926568"
+        },
+        {
+          "url": "https://pace.ac.in/campus/hostel",
+          "page": null,
+          "id": "chunk-000307-d7a8e014e0"
+        }
+      ]
+    },
+    {
+      "id": "courses",
+      "question": "What courses are offered at PACE?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.1542,
+      "retrieved_hit": true,
+      "context": [
+        {
+          "url": "https://pace.ac.in/admissions/courses-offered",
+          "page": null,
+          "id": "chunk-000002-e5c35bd6b9"
+        }
+      ]
+    },
+    {
+      "id": "missing-regulation",
+      "question": "What is the AIML R99 syllabus?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.0141,
+      "retrieved_hit": false,
+      "context": []
+    },
+    {
+      "id": "unrelated",
+      "question": "Who won the FIFA World Cup in 2030?",
+      "passed": true,
+      "retrieval_mode": "hybrid",
+      "seconds": 0.1787,
+      "retrieved_hit": false,
+      "context": []
+    }
+  ],
+  "baseline_passed": 17,
+  "candidate_passed": 17,
+  "regressions": [],
+  "eligible_for_promotion": true,
+  "tested_sha256": {
+    "vectors.faiss": "22fdbbd2d1b2e584c288489bb4afb600d269bf07fd8a648617e74d74421e7383",
+    "vector_records.json": "4722e552e45961b80bf3e95c2eb20b5dd95782e4170e78161eb754b2133af954",
+    "bm25_corpus.json": "ca95fca351dfa74498486b82839a88fc02d33e703372a75b34c218393c7bdb1e",
+    "status.json": "96b3028aae0b80369f7fa01d572dc2bc36b237c088fd45eec845ba1bf60adafb"
+  }
+}
